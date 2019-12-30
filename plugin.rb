@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-# name: discourse-yearly-review
+# name: yearly-review-topic
 # about: Creates an automated Year in Review summary topic
 # version: 0.1
 # author: Simon Cossar
-# url: https://github.com/discourse/discourse-yearly-review
+# url: https://github.com/scossar/yearly-review-topic
 
 enabled_site_setting :yearly_review_enabled
 register_asset 'stylesheets/yearly_review.scss'
