@@ -12,7 +12,7 @@ register_asset 'stylesheets/yearly_review.scss'
 after_initialize do
 
   module ::YearlyReview
-    PLUGIN_NAME = 'yearly-review'
+    PLUGIN_NAME = 'yearly-review-topic'
 
     def self.current_year
       Time.now.year
