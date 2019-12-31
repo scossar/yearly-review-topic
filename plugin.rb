@@ -43,16 +43,16 @@ after_initialize do
       element['width'] = '50%'
     end
     doc.css('[data-review-featured-topics] th').each do |element|
-      element['style'] = 'text-align:left;padding-bottom:12px;'
+      element['style'] = 'text-align:left;padding-right:6px;padding-bottom:12px;'
     end
     doc.css('[data-review-featured-topics] th:first-child').each do |element|
-      element['width'] = '10%'
+      element['width'] = '15%'
     end
     doc.css('[data-review-featured-topics] th:nth-child(2)').each do |element|
       element['width'] = '60%'
     end
     doc.css('[data-review-featured-topics] th:last-child').each do |element|
-      element['width'] = '30%'
+      element['width'] = '25%'
     end
 
     doc.css('[data-review-topic-users] td').each do |element|
