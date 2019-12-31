@@ -26,7 +26,7 @@ after_initialize do
   ::ActionController::Base.prepend_view_path File.expand_path('../app/views/yearly-review', __FILE__)
 
   [
-    '../../discourse-yearly-review/app/jobs/yearly_review.rb'
+    '../../yearly-review-topic/app/jobs/yearly_review.rb'
   ].each { |path| load File.expand_path(path, __FILE__) }
 
   require_dependency 'email/styles'
